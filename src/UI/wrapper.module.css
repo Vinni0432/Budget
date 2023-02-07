@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid forestgreen;
+  border-radius: 15px;
+  padding: 10px 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+}

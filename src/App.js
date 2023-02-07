@@ -1,23 +1,79 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from "react";
+// import { useDispatch } from "react-redux";
+// import { addTodo } from "./store/todoSlice";
+
+import "./App.css";
+// import InputField from "./components/InputField";
+// import TodoList from "./components/TodoList";
+// import ButtonSubmit from "./components/ButtonSubmit";
+// import PriceSum from "./components/PriceSum";
+import Menu from "./UI/Menu";
+import Wrapper from "./UI/Wrapper";
 
 function App() {
+  // const [todos, setTodos] = useState([]);
+
+  // const dispatch = useDispatch();
+  // const [text, setText] = useState("");
+  // const [price, setPrice] = useState("");
+
+  // const addTask = () => {
+  //   dispatch(addTodo({ text, price }));
+  //   setText("");
+  //   setPrice("");
+  // };
+
+  // const addTodo = () => {
+  //   if (text.trim().length) {
+  //     setTodos([
+  //       ...todos,
+  //       {
+  //         id: new Date().toISOString(),
+  //         text,
+  //         completed: false,
+  //       },
+  //     ]);
+  //     setText("");
+  //   }
+  // };
+
+  // const removeTodo = (todoId) => {
+  //   // setTodos(todos.filter((todo) => todo.id !== todoId));
+  // };
+
+  // const toggleTodoCompleted = (todoId) => {
+  //   // setTodos(
+  //   //   todos.map((todo) => {
+  //   //     if (todo.id !== todoId) return todo;
+  //   //     return { ...todo, completed: !todo.completed };
+  //   //   })
+  //   // );
+  // };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+      {/* <div>
+        <InputField
+          type="text"
+          text={text}
+          handleInput={setText}
+          handleSubmit={addTask}
+          placeholder="Вид робіт"
+        />
+        <InputField
+          type="number"
+          text={price}
+          handleInput={setPrice}
+          handleSubmit={addTask}
+          placeholder="Ціна, грн"
+        />
+        <ButtonSubmit buttonName="Додати" handleSubmit={addTask} />
+      </div> */}
+
+      {/* <TodoList />
+      <PriceSum /> */}
+      <Wrapper />
     </div>
   );
 }

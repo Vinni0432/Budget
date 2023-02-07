@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 450px;
+  height: 100%;
+}
+
+.item_date {
+  color: grey;
+  margin: 0px 10px;
+  font-size: 0.8rem;
+  width: 50px;
+}
+
+.item_text {
+  width: 300px;
+  padding: 0px 10px;
+  font-size: 1rem;
+  text-align: start;
+  text-transform: uppercase;
+}

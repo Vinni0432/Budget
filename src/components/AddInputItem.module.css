@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputField {
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border-bottom: green(128, 0, 0) 5px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.btn {
+  color: green;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  width: 100px;
+
+}
