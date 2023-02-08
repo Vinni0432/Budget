@@ -11,7 +11,6 @@ const AddInputItem = () => {
   const dispatch = useDispatch();
   const [text, setText] = useState("");
   const [price, setPrice] = useState("");
-  // const [btnActive, setbtnActive] = useState(false);
 
   const addTask = () => {
     dispatch(addTodo({ text, price }));
@@ -19,9 +18,6 @@ const AddInputItem = () => {
     setPrice("");
   };
 
-  // const btStatus = () => {};
-  // // console.log(btnActive);
-  console.log(!(text.length && price.length));
   return (
     <div className={style.wrapper}>
       <InputField

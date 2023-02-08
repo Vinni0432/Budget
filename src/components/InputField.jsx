@@ -8,7 +8,6 @@ const InputField = ({ className, type, text, placeholder, handleInput }) => {
         onChange={(e) => handleInput(e.target.value)}
         placeholder={placeholder}
       />
-      {/* <button onClick={handleSubmit}> Add Todo</button> */}
     </label>
   );
 };
